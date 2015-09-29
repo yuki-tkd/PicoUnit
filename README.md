@@ -1,6 +1,6 @@
 # PicoUnit
 PicoUnit is a micro library for running unit test in C.
-This library is written in only 1 header file. 
+This library is written in only 1 header file.
 
 
 # Usage
@@ -28,4 +28,8 @@ Call pu_show_result() function
 pu_show_result()
 ```
 
+If your project pass the test codes, you can get following message.
+![Passed](images/passed.png)
 
+Or if your project failed to pass the test codes, you can get following message.
+![Failed](images/failed.png)
